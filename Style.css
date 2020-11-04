@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+@keyframes swing{
+    15%{transform: translateX(5px);}
+    40%{transform: translateX(-5px);}
+    65%{transform: translateX(2px);}
+    85%{transform: translateX(-2px);}
+    100%{transform: translateX(0px);}
+}
+@keyframes slidein {
+    from {
+        padding-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        padding-left: 0%;
+        width: 100%;
+    }
+    75% {
+        font-size: 500%;
+        padding-left: 25%;
+        width: 150%;
+    }
+}
+html{
+    background-color: white;
+}
+.body{
+    height: 1400px;
+}
+.box-header{
+    position: relative;
+    width: 100%;
+    height: 158px;
+    background: #B1987B;
+}
+.header{
+    position:relative;
+    margin-bottom: -200px;
+}
+.box-area{
+    display: flex;
+    height: 1300px;
+}
+.header-title{
+    /* National Taipei University */
+    position: absolute;
+    width: 100%;
+    height: 63px;
+    margin: 90px 170px 1600px 330px;
+    font-family: 'Itim', cursive;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 55px;
+    line-height: 79.04px;
+    color: #F6F6F6;
+    text-align: left;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+.header-title:hover{
+    animation: swing 1s 1;
+}
+.header-title2{
+    /* Of Education */
+    position: absolute;
+    margin: 170px 500px 1470px 820px;
+    width: 100%;
+    height: 54px;
+    color: #47474B;
+    font-family: 'Itim', cursive;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.header-title3{
+    /* 國立臺北教育大學 */
+    position: absolute;
+    width: 100%;
+    height: 46px;
+    margin: 170px 494px 1470px 327px;
+    font-family: 'Noto Serif TC', serif;
+    font-style: normal;
+    font-weight: 100px;
+    font-size: 46px;
+    line-height: 56.25px;
+    letter-spacing: 0.2em;
+    color: #47474B;
+}
+.btn-img {
+    /* NTUE logo */
+    width: 136px;
+    height: 134px;
+    left: 176px;
+    top: 110px;
+    position: absolute;
+    transition: 0.5s;
+}
+.btn-img:hover {
+    transform: rotate(360deg);
+}
+.header-right{
+    /* sign in */
+    position: absolute;
+    width: 112.01px;
+    height: 43px;
+    left: 1149.99px;
+    top: 20px;
+}
+.header-right:hover{
+    transform: scale(1.2);
+}
+.nav-list-item {
+    list-style: none;
+    padding:10px;
+    transition: 0.5s;
+    opacity: 1;
+}
+.nav-list-item a:hover{
+    list-style: none;
+    opacity: 0.3;
+}
+.nav-list-item-link-1{
+    /* 校園導覽 */
+    position: absolute;
+    margin:300px 750px 1000px 140px;
+    width: 368px;
+    height: 348px;
+}
+.nav-list-item-link-2{
+    /* 熱門連結 */
+    position: absolute;
+    margin: 200px 200px 1300px 530px;
+    width: 530px;
+    height: 92px;
+}
+.nav-list-item-link-3{
+    /* 學院介紹 */
+    position: absolute;
+    margin:630px 750px 640px 140px;
+    width: 368px;
+    height: 348px;
+}
+.nav-list-item-link-4{
+    /* 校園新聞&宣導 */
+    position: absolute;
+    margin: 360px 200px 1000px 530px;
+    width: 530px;
+    height: 236px;
+}
+.nav-list-item-link-5{
+    /* 北師美術館 */
+    position: absolute;
+    margin:600px 200px 660px 530px;
+    width: 530px;
+    height: 186px;
+}
+.nav-list-item-link-6{
+    /* 社團介紹 */
+    position: absolute;
+    margin: 790px 200px 430px 530px;
+    width: 530px;
+    height: 131px;
+}
+.nav-list-item-link-7{
+    /* 招生 */
+    position: absolute;
+    margin:940px 750px 440px 140px;
+    width: 201px;
+    height: 156px;
+}
+.nav-list-item-link-8{
+    /* 畢業門檻&出路 */
+    position: absolute;
+    margin:923px 850px 560px 360px;
+    width: 311px;
+    height: 156px;
+}
+.nav-list-item-link-9{
+    /* 資訊公開專區 */
+    position: absolute;
+    margin:903px 350px 580px 695px;
+    width: 368px;
+    height: 156px;
+}
+footer{
+    /* Copyright©NTUE, All Rights Reserved. */
+    width: 429px;
+    height: 28px;
+    margin-left: 200px;
+    margin-top: 60px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height */
+    letter-spacing: 0.07em;
+    color: rgba(71, 71, 75, 0.6);
+}

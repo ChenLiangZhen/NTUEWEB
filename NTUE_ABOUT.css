@@ -1,0 +1,36 @@
+.AboutPic{
+    height: 300px;
+    width: 800px;
+}
+.PicContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.TextContainer{
+    width: 800px;
+    dispplay: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.content-middle2{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction : column;
+}
+.R-Description2{
+    margin-top: 24px;
+    color: #484141;
+    background-color: #f4f2ed;
+    width: 800px;
+    height: 32px;
+    line-height: 32px;
+    font-family: Noto Sans TC;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding-left: 8px;
+    margin-bottom: -9px;
+}
+
